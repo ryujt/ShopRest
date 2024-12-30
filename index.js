@@ -1,8 +1,12 @@
 const express = require('express')
+const cors = require('cors');
 const fs = require('fs')
 const path = require('path')
 const app = express()
+
 app.use(express.json())
+app.use(cors());
+
 const PORT = 3000
 const USERS_FILE = path.join(__dirname, 'users.jsonl')
 const PRODUCTS_FILE = path.join(__dirname, 'products.jsonl')

@@ -8,6 +8,13 @@ const USERS_FILE = path.join(__dirname, 'users.jsonl')
 const PRODUCTS_FILE = path.join(__dirname, 'products.jsonl')
 const CART_FILE = path.join(__dirname, 'carts.jsonl')
 
+// Serve static images
+const IMAGES_DIR = path.join(__dirname, 'images')
+if (!fs.existsSync(IMAGES_DIR)) {
+  fs.mkdirSync(IMAGES_DIR)
+}
+app.use('/images', express.static(IMAGES_DIR))
+
 function readUsers() {
   if (!fs.existsSync(USERS_FILE)) {
     return []

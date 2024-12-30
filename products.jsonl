@@ -1,0 +1,6 @@
+{"id":"1","name":"자전거","price":100000,"image":"/images/1.webp","createdAt":"2024-12-30T00:00:00.000Z"}
+{"id":"2","name":"핸드폰","price":200000,"image":"/images/2.webp","createdAt":"2024-12-30T00:00:00.000Z"}
+{"id":"3","name":"노트북","price":300000,"image":"/images/3.webp","createdAt":"2024-12-30T00:00:00.000Z"}
+{"id":"4","name":"키보드","price":40000,"image":"/images/4.webp","createdAt":"2024-12-30T00:00:00.000Z"}
+{"id":"5","name":"마우스","price":20000,"image":"/images/5.webp","createdAt":"2024-12-30T00:00:00.000Z"}
+{"id":"6","name":"헤드폰","price":80000,"image":"/images/6.webp","createdAt":"2024-12-30T00:00:00.000Z"}
